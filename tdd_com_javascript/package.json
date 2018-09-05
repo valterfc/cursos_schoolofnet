@@ -1,0 +1,19 @@
+{
+  "name": "tdd_com_javascript",
+  "version": "1.0.0",
+  "description": "TDD com Javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/color-converter.js -o dist/color-converter.js",
+    "test": "mocha tests/*.spec.js"
+  },
+  "author": "ValterFC",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  }
+}
