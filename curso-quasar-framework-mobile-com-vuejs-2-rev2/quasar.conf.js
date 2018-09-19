@@ -4,7 +4,8 @@ module.exports = function (ctx) {
   return {
     // app plugins (/src/plugins)
     plugins: [
-      'axios'
+      'axios',
+      'erik'
     ],
     css: [
       'app.styl'
@@ -48,7 +49,13 @@ module.exports = function (ctx) {
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+        'QTabs',
+        'QTab',
+        'QTabPane',
+        'QRouteTab',
+        'QLayoutFooter',
+        'QScrollArea'
       ],
       directives: [
         'Ripple'

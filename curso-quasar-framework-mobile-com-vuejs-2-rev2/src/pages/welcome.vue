@@ -11,6 +11,10 @@ export default {
   // name: 'PageName',
   components: {
     'hello': Hello
+  },
+  mounted(){
+    //console.log(this.$axios.get('http://www.schoolofnet.com')); //este dá erro por causa do site
+    console.log(this.erik);
   }
 }
 </script>
