@@ -40,10 +40,6 @@ export default {
     }
   },
 
-  axios: {
-    credentials: false
-  },
-
   methods: {
     remove() {
       //console.log(this.$route.params.id);
