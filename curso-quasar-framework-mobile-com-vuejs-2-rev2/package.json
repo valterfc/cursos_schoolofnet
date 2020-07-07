@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "devtron": "~>1.4.0",
-    "electron": "^2.0.10",
+    "electron": "^9.1.0",
     "electron-debug": "~>2.0.0",
     "electron-devtools-installer": "~>2.2.4",
     "electron-packager": "~>12.1.2",
